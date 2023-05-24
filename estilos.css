@@ -1,0 +1,86 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 49, 85);
+}
+
+.box-1{
+    position: absolute;
+    margin:auto;
+    left:50%;
+    top:25%;
+    width:400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(11, 42, 79);
+}
+
+.box-2{
+    padding: 0px 20px 30px 20px;
+    background-color: rgb(0, 37, 79);
+    border-radius: 20px;
+}
+
+.box-3 {
+    padding: 20px;
+    background-color: rgb(0, 53, 113);
+    border-radius: 20px;
+}
+
+
+.image-center>img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.box-3{
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.title1{
+    color:white;
+}
+
+.subtitle{
+    color: hsl(215,51%,70%);
+    font-stretch: semi-condensed;
+}
+
+.columns-text{
+    display: flex;
+}
+
+.columns-text1{
+    width: 50%;
+    font-size: smaller;
+}
+
+.columns-text1>img{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.text-money{
+    color:aqua;
+}
+
+.text-time{
+    color: hsl(215,51%,70%);
+}
+
+.avatar-text>img{
+    width:30px;
+    border-radius: 50%;
+    border:2px solid white;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.text-footer1{
+    color: hsl(215,51%,70%);
+}
+
+.text-footer2{
+    color: white;
+}
